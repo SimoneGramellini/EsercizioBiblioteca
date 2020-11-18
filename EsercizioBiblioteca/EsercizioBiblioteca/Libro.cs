@@ -56,6 +56,17 @@ namespace EsercizioBiblioteca
             set { numeroPag = value; }
         }
 
+        //METODI DI CLASSE
+
+        public string ToString (Libro x)
+        {
+            string dati;
+            dati = (x.autore + " " + x.titoloLibro + " " + x.annoPubblicazione + " " + x.editore + " " + x.numeroPag);
+            return dati;
+        }
+
+        
+
 
 
     }
