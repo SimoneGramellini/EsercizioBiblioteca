@@ -10,16 +10,28 @@ namespace EsercizioBiblioteca
         private string _nome;
         private string _indirizzo;
         private DateTime _orario;
+        private List<Libro> _lstLibri;
 
+        public List<Libro> LstLibri
+        {
+            get
+            {
+                return _lstLibri;
+            }
+            set
+            {
+                _lstLibri = value;
+            }
+        }
         public string Nome
         {
             get
             {
-                
+                return _nome;
             }
             set
             {
-                
+                _nome = value;
             }
         }
 
@@ -27,11 +39,12 @@ namespace EsercizioBiblioteca
         {
             get
             {
-
+                return _indirizzo;
             }
 
             set
             {
+                _indirizzo = value;
             }
         }
 
@@ -39,31 +52,34 @@ namespace EsercizioBiblioteca
         {
             get
             {
-
+                return _orario;
             }
             set
             {
+                _orario = value;
             }
         }
 
-        public void AggiungiLibro()
+        public void AggiungiLibro(Libro libro)
         {
-            throw new System.NotImplementedException();
+            LstLibri.Add(libro);
         }
 
-        public void RicercaLibro()
+        public void RicercaLibro(Libro libro)
         {
-            throw new System.NotImplementedException();
+            if (LstLibri.Contains(libro))
+                return libro;
         }
 
-        public void RicercaLibriAutore()
+        public void RicercaLibriAutore(Libro autore)
         {
-            throw new System.NotImplementedException();
+            if (LstLibri.Contains(autore))
+                return autore;
         }
 
         public void NumeroLibri()
         {
-            throw new System.NotImplementedException();
+            return LstLibri.Count;
         }
     }
 }
