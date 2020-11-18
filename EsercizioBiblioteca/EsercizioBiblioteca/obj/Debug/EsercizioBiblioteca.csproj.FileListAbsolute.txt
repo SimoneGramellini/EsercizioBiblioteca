@@ -1,0 +1,5 @@
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\EsercizioBiblioteca.csprojAssemblyReference.cache
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\MainWindow.g.cs
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\App.g.cs
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\EsercizioBiblioteca_MarkupCompile.cache
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\EsercizioBiblioteca_MarkupCompile.lref
