@@ -3,3 +3,13 @@ C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\Ese
 C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\App.g.cs
 C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\EsercizioBiblioteca_MarkupCompile.cache
 C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\EsercizioBiblioteca_MarkupCompile.lref
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\bin\Debug\EsercizioBiblioteca.exe.config
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\bin\Debug\EsercizioBiblioteca.exe
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\bin\Debug\EsercizioBiblioteca.pdb
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\MainWindow.baml
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\EsercizioBiblioteca.g.resources
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\EsercizioBiblioteca.Properties.Resources.resources
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\EsercizioBiblioteca.csproj.GenerateResource.cache
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\EsercizioBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\EsercizioBiblioteca.exe
+C:\Users\simone.gramellini\Documents\EsercizioBiblioteca\EsercizioBiblioteca\EsercizioBiblioteca\obj\Debug\EsercizioBiblioteca.pdb

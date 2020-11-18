@@ -21,29 +21,35 @@ namespace EsercizioBiblioteca
     public partial class MainWindow : Window
     {
         Libro libro;
-        Biblioteca = biblioteca;
+        Biblioteca biblioteca;
         List<Libro> libri;
         public MainWindow()
         {
             InitializeComponent();
 
-            biblioteca = new Biblioteca("biblioteca malatestiana", "via piave 16", DateTime.Now, DateTime., libri);
+            biblioteca = new Biblioteca("biblioteca malatestiana", "via piave 16", DateTime.Now, libri);
         }
 
         private void btnCreaLibro_Click(object sender, RoutedEventArgs e)
         {
-            libro = new Libro(txtAutore.Text(), txtTitolo.Text(), txtAnnoPubblicazione.Text(), txtEditore.Text(), int.Parse(txtNumeroPagine.Text()));
+            libro = new Libro(txtAutore.Text, txtTitolo.Text, int.Parse(txtAnnoPubblicazione.Text), txtEditore.Text, int.Parse(txtNumeroPagine.Text));
             biblioteca.AggiungiLibro(libro);
+            lstLibri.Items.Clear();
+            foreach(Libro libro in biblioteca.LstLibri)
+            {
+                lstLibri.Items.Add(libro.ToString());
+            }
+            lblNumeroLibri.Content = biblioteca.NumeroLibri();
         }
 
         private void btnCercaLibro_Click(object sender, RoutedEventArgs e)
         {
-
+            lblCercaLibro.Content = biblioteca.RicercaLibro(txtRicercaNomeLibro.Text);
         }
 
         private void btnCercaLibri_Click(object sender, RoutedEventArgs e)
         {
-
+            lblCercaLibro.Content = biblioteca.RicercaLibriAutore(txtRicercaLibriAutore.Text);
         }
     }
 }
