@@ -65,7 +65,25 @@ namespace EsercizioBiblioteca
             return dati;
         }
 
-        
+        public string ReadingTime (Libro x)
+        {
+            string tempoLettura = " ";
+
+            if (x.numeroPag < 100)
+            {
+                tempoLettura = "tempo lettura = 1h";
+            }
+            if (x.numeroPag >= 100 && x.numeroPag < 200)
+            {
+                tempoLettura = "tempo lettura = 2h";
+            }
+            if (x.numeroPag >= 200)
+            {
+                tempoLettura = "tempo lettura > 2h";
+            }
+
+            return tempoLettura;
+        }
 
 
 
