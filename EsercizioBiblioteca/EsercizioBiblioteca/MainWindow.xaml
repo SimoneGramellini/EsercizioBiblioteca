@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EsercizioBiblioteca"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="1077.112">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="567*"/>
+            <ColumnDefinition Width="502*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Height="67" Margin="111,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Height="67" Margin="111,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="txtAnnoPubblicazione" HorizontalAlignment="Left" Height="67" Margin="111,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="txtEditore" HorizontalAlignment="Left" Height="67" Margin="111,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="txtNumeroPagine" HorizontalAlignment="Left" Height="67" Margin="111,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <Button Content="Crea&#xD;&#xA;Libro" HorizontalAlignment="Left" Margin="296,28,0,0" VerticalAlignment="Top" Width="87" Height="355"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="84" TextAlignment="Center" FontSize="20" Text="Autore"/>
+        <TextBlock x:Name="Titolo" HorizontalAlignment="Left" Margin="10,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="84" TextAlignment="Center" FontSize="20" Text="Titolo"/>
+        <TextBlock x:Name="AnnoPubblicazione" HorizontalAlignment="Left" Margin="5,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="67" Width="94" TextAlignment="Center" FontSize="20"><Run Text="Anno"/><LineBreak/><Run Text="pubblicaz."/></TextBlock>
+        <TextBlock x:Name="Editore" HorizontalAlignment="Left" Margin="10,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="84" TextAlignment="Center" FontSize="20" Text="Editore"/>
+        <TextBlock x:Name="Editore_Copy" HorizontalAlignment="Left" Margin="10,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="67" Width="84" TextAlignment="Center" FontSize="20"><Run Text="Num."/><LineBreak/><Run Text="pagine"/></TextBlock>
     </Grid>
 </Window>
