@@ -12,6 +12,14 @@ namespace EsercizioBiblioteca
         private DateTime _orario;
         private List<Libro> _lstLibri;
 
+        public Biblioteca Biblioteca(string nome,string indirizzo,DateTime orario,List<Libro> lstLibri)
+        {
+            Nome = nome;
+            Indirizzo = indirizzo;
+            Orari = orario;
+            LstLibri = lstLibri;
+        }
+
         public List<Libro> LstLibri
         {
             get
@@ -20,6 +28,7 @@ namespace EsercizioBiblioteca
             }
             set
             {
+                
                 _lstLibri = value;
             }
         }
@@ -31,6 +40,8 @@ namespace EsercizioBiblioteca
             }
             set
             {
+                if (string.IsNullOrEmpty(value))
+                    new Exception("errore nome");
                 _nome = value;
             }
         }
@@ -44,6 +55,8 @@ namespace EsercizioBiblioteca
 
             set
             {
+                if (string.IsNullOrEmpty(value))
+                    new Exception("errore indirizzo");
                 _indirizzo = value;
             }
         }
@@ -56,30 +69,61 @@ namespace EsercizioBiblioteca
             }
             set
             {
+                
+
                 _orario = value;
             }
         }
 
         public void AggiungiLibro(Libro libro)
         {
-            LstLibri.Add(libro);
+            try
+            {
+                LstLibri.Add(libro);
+            }catch(Exception ex)
+            {
+                throw ex;
+            }
+            
         }
 
         public void RicercaLibro(Libro libro)
         {
-            if (LstLibri.Contains(libro))
-                return libro;
+            try
+            {
+                if (LstLibri.Contains(libro))
+                    return libro;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+            
         }
 
         public void RicercaLibriAutore(Libro autore)
         {
-            if (LstLibri.Contains(autore))
-                return autore;
+            try
+            {
+                if (LstLibri.Contains(autore))
+                    return autore;
+            }catch(Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public void NumeroLibri()
         {
-            return LstLibri.Count;
+            try
+            {
+                return LstLibri.Count;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+
         }
     }
 }
